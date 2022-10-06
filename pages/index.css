@@ -12,7 +12,10 @@
 @import url(../blocks/captioned-image/captioned-image.css);
 @import url(../blocks/captioned-image/__image/captioned-image__image.css);
 @import url(../blocks/captioned-image/__caption/captioned-image__caption.css);
+@import url(../blocks/captioned-image/__overlayed-image/captioned-image__overlayed-image.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/fact-list/fact-list.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);

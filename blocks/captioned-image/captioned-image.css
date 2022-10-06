@@ -2,4 +2,6 @@
   width: 100%;
   max-width: 928px;
   margin: 0 auto;
+  position: relative;
+  z-index: 1;
 }

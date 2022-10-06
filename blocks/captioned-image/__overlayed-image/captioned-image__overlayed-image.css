@@ -1,0 +1,7 @@
+.captioned-image__overlayed-image {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  width: 95%;
+  z-index: 1;
+}
