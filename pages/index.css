@@ -6,3 +6,9 @@
 @import url(../blocks/lang-selector/lang-selector.css);
 @import url(../blocks/lang-selector/__link/lang-selector__link.css);
 @import url(../blocks/lang-selector/__link/_active/lang-selector__link_active.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/captioned-image/captioned-image.css);
+@import url(../blocks/captioned-image/__image/captioned-image__image.css);
+@import url(../blocks/captioned-image/__caption/captioned-image__caption.css);
