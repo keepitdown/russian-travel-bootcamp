@@ -1,0 +1,7 @@
+.place__header {
+  box-sizing: border-box;
+  margin: 0 calc(10px + 1.8%);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
