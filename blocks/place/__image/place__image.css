@@ -1,7 +1,15 @@
 .place__image {
-  display: block;
   width: 100%;
-  min-width: 0;
-  margin: 0 auto;
-  flex: 1 1 0;
+}
+
+@media screen and (min-width: 594px) {
+  .place__image {
+    width: calc((100% - 28px) * 0.49)
+  }
+}
+
+@media screen and (min-width: 945px) {
+  .place__image {
+    width: calc((100% - 32px) * 0.49)
+  }
 }

@@ -5,12 +5,18 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
-  flex: 1 1 0;
 }
 
 @media screen and (min-width: 594px) {
   .place__text {
     font-size: 18px;
     margin: 0;
+    width: calc((100% - 28px) * 0.51)
+  }
+}
+
+@media screen and (min-width: 945px) {
+  .place__text {
+    width: calc((100% - 32px) * 0.51)
   }
 }
