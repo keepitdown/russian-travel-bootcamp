@@ -1,0 +1,24 @@
+.cover__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  max-width: 1184px;
+  height: 62.5vw;
+  max-height: 740px;
+  background-color: #2a2c2f;
+  opacity: .3;
+  transition: opacity .6s ease;
+}
+
+.cover__link:hover::before {
+  opacity: .8;
+}
