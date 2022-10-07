@@ -1,0 +1,8 @@
+.place__paragraph {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.place__paragraph:nth-child(n + 2) {
+  margin-top: 25px;
+}
