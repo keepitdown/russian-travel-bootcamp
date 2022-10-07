@@ -8,7 +8,7 @@
   flex: 0;
 }
 
-@media screen and (min-width: 594px) {
+@media screen and (min-width: 600px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;

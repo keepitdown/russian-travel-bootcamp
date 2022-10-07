@@ -1,0 +1,17 @@
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: space-between;
+  margin: 64px calc(10px + 1.8%) 24px ; 
+  color: #fff;
+}
+
+@media screen and (min-width: 716px) {
+  .footer {
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-end;
+  }
+}
