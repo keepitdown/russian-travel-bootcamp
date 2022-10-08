@@ -12,11 +12,11 @@
 
 @media screen and (min-width: 720px) {
   .captioned-image__caption {
-    margin-left: 3.1vw;
+    margin-left: 24px;
   }
 }
 
-@media screen and (min-width: 945px) {
+@media screen and (min-width: 910px) {
   .captioned-image__caption {
     margin-left: 0;
   }

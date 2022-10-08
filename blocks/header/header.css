@@ -9,11 +9,11 @@
 @media screen and (min-width: 720px) {
   .header {
     height: 52px;
-    margin: 28px 3.1vw;
+    margin: 28px 24px;
   }  
 }
 
-@media screen and (min-width: 945px) {
+@media screen and (min-width: 910px) {
   .header {
     margin: 28px 48px;
   }  

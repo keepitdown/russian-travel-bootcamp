@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 945px) {
+@media screen and (min-width: 910px) {
   .place__text {
     font-size: 18px;
     width: calc((100% - 32px) * 0.51)

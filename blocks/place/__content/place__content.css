@@ -10,6 +10,12 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 0;
-    margin: 0 3.1vw;
+    margin: 0 24px;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .place__content {
+    margin: 0 48px;
   }
 }

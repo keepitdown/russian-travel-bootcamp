@@ -3,3 +3,9 @@
   margin: 48px auto;
   color: white;
 }
+
+@media screen and (min-width: 910px) {
+  .lead {
+    margin: 48px 48px 92px;
+  }
+}

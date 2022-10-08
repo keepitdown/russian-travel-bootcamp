@@ -13,6 +13,12 @@
     flex-direction: row;
     gap: 0;
     align-items: flex-end;
-    margin: 88px 3.1vw 24px;
+    margin: 88px 24px 24px;
+  }
+}
+
+@media screen and (min-width: 910px) {
+  .footer {
+    margin: 92px 48px 24px;
   }
 }
