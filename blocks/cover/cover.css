@@ -3,9 +3,7 @@
   z-index: 0;
   box-sizing: border-box;
   width: 100%;
-  max-width: 1184px;
   height: 62.5vw;
-  max-height: 740px;
   margin: 0 auto;
   padding-top: 10%;
   background-image: url(../../images/cover-background.jpg);
@@ -21,5 +19,13 @@
 @media screen and (min-width: 910px) {
   .cover {
     padding-top: 19%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .cover {
+    margin: 0 48px;
+    width: calc(100% - (48px * 2));
+    height: calc(62.5vw - (48px * 2 * 0.625));
   }
 }

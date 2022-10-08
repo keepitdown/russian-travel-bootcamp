@@ -20,3 +20,10 @@
     width: calc((100% - 32px) * 0.51)
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .place__text {
+    font-size: 18px;
+    width: calc((100% - 40px) * 0.51)
+  }
+}
