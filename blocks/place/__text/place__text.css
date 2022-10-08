@@ -10,20 +10,20 @@
 @media screen and (min-width: 720px) {
   .place__text {
     margin: 0;
-    width: calc((100% - 28px) * 0.51)
+    width: calc((100% - 28px) * 0.51);
   }
 }
 
 @media screen and (min-width: 910px) {
   .place__text {
     font-size: 18px;
-    width: calc((100% - 32px) * 0.51)
+    width: calc((100% - 32px) * 0.51);
   }
 }
 
 @media screen and (min-width: 1100px) {
   .place__text {
     font-size: 18px;
-    width: calc((100% - 40px) * 0.51)
+    width: calc((100% - 40px) * 0.51);
   }
 }

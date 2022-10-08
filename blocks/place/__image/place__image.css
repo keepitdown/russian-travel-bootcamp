@@ -4,18 +4,18 @@
 
 @media screen and (min-width: 720px) {
   .place__image {
-    width: calc((100% - 28px) * 0.49)
+    width: calc((100% - 28px) * 0.49);
   }
 }
 
 @media screen and (min-width: 910px) {
   .place__image {
-    width: calc((100% - 32px) * 0.49)
+    width: calc((100% - 32px) * 0.49);
   }
 }
 
 @media screen and (min-width: 1100px) {
   .place__image {
-    width: calc((100% - 40px) * 0.49)
+    width: calc((100% - 40px) * 0.49);
   }
 }
