@@ -4,11 +4,11 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 900;
   font-size: 32px;
-  line-height: 1.1;
+  line-height: 1.09;
   flex: 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;

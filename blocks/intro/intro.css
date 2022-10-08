@@ -1,12 +1,12 @@
 .intro {
   box-sizing: border-box;
-  margin: 64px calc(10px + 1.8%);
+  margin: 64px 16px;
   color: #fff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .intro {
-    margin: 88px calc(10px + 1.8%);
+    margin: 88px 3.1vw;
   }
 }
 

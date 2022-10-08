@@ -1,15 +1,15 @@
 .header {
   box-sizing: border-box;
   height: 42px;
-  margin: 16px;
+  margin: 16px 16px 0;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 720px) {
   .header {
     height: 52px;
-    margin: 28px 24px;
+    margin: 28px 3.1vw;
   }  
 }
 

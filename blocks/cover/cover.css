@@ -11,3 +11,10 @@
   background-image: url(../../images/cover-background.jpg);
   background-size: cover;
 }
+
+@media screen and (min-width: 720px) {
+  .cover {
+    padding-top: 24%;
+  }
+  
+}

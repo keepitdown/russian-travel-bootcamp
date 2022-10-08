@@ -1,15 +1,14 @@
 .place__text {
   box-sizing: border-box;
-  margin: 0 calc(10px + 1.8%);
+  margin: 0 16px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.63;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 720px) {
   .place__text {
-    font-size: 18px;
     margin: 0;
     width: calc((100% - 28px) * 0.51)
   }
@@ -17,6 +16,7 @@
 
 @media screen and (min-width: 945px) {
   .place__text {
+    font-size: 18px;
     width: calc((100% - 32px) * 0.51)
   }
 }

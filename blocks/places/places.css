@@ -1,4 +1,10 @@
 .places {
   box-sizing: border-box;
-  margin: 64px 0 66px 0;
+  margin: 64px 0 66px;
+}
+
+@media screen and (min-width: 720px) {
+  .places {
+    margin: 88px 0 90px;
+  }
 }

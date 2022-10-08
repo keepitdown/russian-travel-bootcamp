@@ -12,7 +12,7 @@
   line-height: 1;
 }
 
-@media screen and (min-width: 716px) {
+@media screen and (min-width: 720px) {
   .footer__link-list {
     flex-direction: row;
     gap: 18px;

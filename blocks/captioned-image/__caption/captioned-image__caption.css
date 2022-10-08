@@ -7,15 +7,15 @@
   letter-spacing: 1.5px;
   color: #fff;
   margin-top: 8px;
-  margin-left: calc(10px + 1.8%);
+  margin-left: 16px;
 }
-/*
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 720px) {
   .captioned-image__caption {
-    margin-left: 24px;
+    margin-left: 3.1vw;
   }
 }
-*/
+
 @media screen and (min-width: 945px) {
   .captioned-image__caption {
     margin-left: 0;
