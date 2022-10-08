@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
   .place__image {
     width: calc((100% - 40px) * 0.49)
   }
