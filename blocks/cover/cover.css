@@ -2,30 +2,27 @@
   position: relative;
   z-index: 0;
   box-sizing: border-box;
-  width: 100%;
-  height: 62.5vw;
+  max-width: 1184px;
+  min-height: 62.5vw;
   margin: 0 auto;
-  padding-top: 10%;
   background-image: url(../../images/cover-background.jpg);
   background-size: cover;
-}
-
-@media screen and (min-width: 720px) {
-  .cover {
-    padding-top: 15%;
-  }
-}
-
-@media screen and (min-width: 910px) {
-  .cover {
-    padding-top: 19%;
-  }
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 1100px) {
   .cover {
     margin: 0 48px;
-    width: calc(100% - (48px * 2));
-    height: calc(62.5vw - (48px * 2 * 0.625));
+    min-height: calc(62.5vw - (48px * 2 * 0.625));
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 0 auto;
+    min-height: 740px;
   }
 }

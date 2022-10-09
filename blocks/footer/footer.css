@@ -1,5 +1,6 @@
 .footer {
   box-sizing: border-box;
+  max-width: 1184px;
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -20,5 +21,11 @@
 @media screen and (min-width: 910px) {
   .footer {
     margin: 92px 48px 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    margin: 92px auto 24px;
   }
 }

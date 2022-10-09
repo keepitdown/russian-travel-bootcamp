@@ -3,6 +3,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/link-hover/link-hover.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/russia-logo/russia-logo.css);
 @import url(../blocks/lang-selector/lang-selector.css);
 @import url(../blocks/lang-selector/__link/lang-selector__link.css);
 @import url(../blocks/lang-selector/__link/_active/lang-selector__link_active.css);
@@ -17,10 +18,10 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/fact-list/fact-list.css);
+@import url(../blocks/fact-list/__value/fact-list__value.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__header/place__header.css);
 @import url(../blocks/place/__title/place__title.css);

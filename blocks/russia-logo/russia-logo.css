@@ -1,0 +1,9 @@
+.russia-logo {
+  height: 42px;
+}
+
+@media screen and (min-width: 720px) {
+  .russia-logo {
+    height: 52px;
+  }
+}

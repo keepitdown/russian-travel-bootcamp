@@ -22,3 +22,9 @@
     margin-left: 148px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-left: calc((100vw - 984px) / 2);
+  }
+}
