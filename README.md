@@ -6,8 +6,10 @@
 
 ## Технологии
 
-* HTML
-* CSS
+<div>
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML5" width="35" height="35"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg" title="CSS3" alt="CSS3" width="35" height="35"/>&nbsp;
+</div>
 
 Проект реализован при помощи стандартных технологий веб-разработки **HTML** и **CSS**. Адаптивность верстки достигается за счет использования относительных единиц и динамически вычисляемых функцией **calc()** значений, технологий **flexbox** и **grid**, а также CSS-правил, включающих медиазапросы с директивой **@media**.
 
